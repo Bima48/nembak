@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I LOVE YOU</title>
+    <script type="text/javascript">
+        flag=1
+function f1()
+{
+    alert("Thanks Udah pilih Jawaban YA")
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=400
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=166
+            flag=1
+        }
+}
+    </script>
+</head>
+<body>
+    <h1>hai kamuuuu <3</h1>
+    <img src="gif/hug-hugs-and-love.gif" alt="love">
+    <h1 style="#">kamu sayang nggak sama aku?</h1>
+    <div id="By" style="position:absolute; left:64px; top:370px; width:210px; height:210px;">
+        <input type="button" value="YA" onclick="f1()">
+        </div>
+    <div ID="Bn" style="position:absolute; left:166px; top:370px; width:210px; height:210px;">
+        <input type="button" value="TIDAK" onMouseOver="f()" />
+        </div>
+</body>
+</html>
